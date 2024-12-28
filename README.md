@@ -1,0 +1,4 @@
+- Fix news. Add all the relevant news items.
+- Add experience descriptions.
+- Add images. Hackathons, volunteering etc.
+- Add Office Hours.

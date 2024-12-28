@@ -1,0 +1,30 @@
+@import "../variables";
+
+.projectsLayout {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    white-space: nowrap;
+  }
+
+  .projects-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+  }
+
+  .date-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .tools-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $pf-secondary-color;
+  }
+
+  .content-text {
+    font-size: 0.96rem;
+  }
+}

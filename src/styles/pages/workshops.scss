@@ -1,0 +1,13 @@
+.workshopsLayout {
+  display: flex;
+  flex-direction: column;
+
+  .workshops-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+
+    .content-text {
+      font-size: 0.96rem;
+    }
+  }
+}

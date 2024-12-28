@@ -1,0 +1,20 @@
+.presentationsLayout {
+  display: flex;
+  flex-direction: column;
+
+  .presentation-subtitle {
+  }
+
+  .presentation-divider {
+    height: 0.5rem;
+  }
+
+  .presentation-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+
+    .content-text {
+      font-size: 0.96rem;
+    }
+  }
+}

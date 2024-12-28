@@ -1,0 +1,58 @@
+@import "../variables";
+
+.articlesLayout {
+  display: flex;
+  flex-direction: column;
+
+  .articles-wrapper {
+    margin-top: 2rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .articles-card {
+    display: flex;
+    margin-bottom: 3rem;
+
+    .img-container {
+      display: flex;
+      max-width: 160px;
+      min-width: 100px;
+
+      &.cors {
+        background-color: $pf-cors-bg;
+      }
+
+      &.gsoc {
+        background-color: $pf-gsoc-bg;
+      }
+    }
+
+    .card-content {
+      align-self: center;
+      margin-left: 2rem;
+
+      h3 {
+        margin-top: 0;
+      }
+
+      .date-text {
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .tags-text {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: $pf-secondary-color;
+      }
+
+      .content-text {
+        font-size: 0.96rem;
+      }
+    }
+
+  }
+}

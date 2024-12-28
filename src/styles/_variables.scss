@@ -1,0 +1,27 @@
+// MIXINS
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
+
+// Fonts
+$pf-primary-font: 'Roboto Mono', monospace;
+$pf-secondary-font: 'Roboto', sans-serif;
+$pf-link-color: #1772d0;
+$pf-link-hover-color: #F9A825;
+
+// Colors
+$pf-primary-color: #424242;
+$pf-secondary-color: #616161;
+$pf-cors-bg: #282d36;
+$pf-gsoc-bg: #e9ecef;
+
+// Scrollbar
+$pf-scrollbar-track-bg: #f1f1f1;
+$pf-scrollbar-thumb-bg: #b6b6b6;
+$pf-scrollbar-thumb-hover-bg: #555;
+
+// Navbar
+$pf-navbar-background-color: $pf-secondary-color;
+$pf-sub-nav-link-color: #949494;

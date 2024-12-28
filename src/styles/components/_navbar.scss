@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+  a {
+
+    color: $pf-sub-nav-link-color;
+    font-size: 1.0rem;
+
+    padding: 1.0rem;
+    text-decoration: none;
+    width: 10rem;
+
+    &:hover {
+      color: $pf-primary-color;
+    }
+
+    &.active {
+      color: $pf-primary-color;
+      font-weight: 500;
+    }
+  }
+
+  .officeHours {
+    color: #FFFFFF;
+    background-color: #EF5350;
+  }
+
+}

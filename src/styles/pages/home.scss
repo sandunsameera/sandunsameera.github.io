@@ -1,0 +1,88 @@
+@import "../variables";
+
+.homeLayout {
+
+  .section-items {
+
+    .about-me {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .profile-card {
+        display: flex;
+        margin-bottom: 3rem;
+        margin-right: 1.5rem;
+        max-width: 80%;
+        padding-right: 1.5rem;
+
+        .img-container {
+          align-items: flex-end;
+          background-color: $pf-scrollbar-track-bg;
+          display: flex;
+          max-width: 250px;
+          min-width: 100px;
+        }
+
+        .profile-description {
+          align-self: flex-end;
+          margin-left: 1rem;
+
+          h3 {
+            margin-top: 0;
+          }
+
+          .content-text {
+            font-size: 0.96rem;
+          }
+        }
+      }
+
+      .contact-details-section {
+        flex: 1;
+        margin-top: 1rem;
+
+        .contact-details {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          margin-bottom: 2rem;
+
+          .contact-item {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0.8rem;
+
+            span {
+              margin-left: 1.5rem;
+            }
+          }
+        }
+      }
+
+    }
+
+    .news-section {
+      margin-bottom: 3rem;
+
+      .news-content {
+        margin-bottom: 1rem;
+
+        .date-text {
+          font-size: 0.9rem;
+          font-weight: 700;
+        }
+
+        .content-text {
+          font-size: 0.96rem;
+        }
+      }
+    }
+
+    .research-interests {
+      margin-bottom: 3rem;
+    }
+
+  }
+}

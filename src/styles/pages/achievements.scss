@@ -1,0 +1,23 @@
+.achievementsLayout {
+  display: flex;
+  flex-direction: column;
+
+  .achievements-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .institute-text {
+      font-size: 0.9rem;
+      font-weight: 700;
+
+      &.country {
+        font-weight: 400;
+      }
+    }
+  }
+
+}

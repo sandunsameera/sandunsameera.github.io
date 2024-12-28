@@ -1,0 +1,30 @@
+.experienceLayout {
+  display: flex;
+  flex-direction: column;
+
+  .experience-subtitle {
+  }
+
+  .experience-divider {
+    height: 0.5rem;
+  }
+
+  .research-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+
+    .institute-text {
+      font-size: 0.9rem;
+    }
+
+    .research-content-text {
+      font-size: 0.96rem;
+      margin: 0.4rem 0;
+    }
+
+    .date-country-text {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+  }
+}

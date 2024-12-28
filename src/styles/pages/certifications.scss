@@ -1,0 +1,30 @@
+.certificationsLayout {
+  display: flex;
+  flex-direction: column;
+
+  .certification-subtitle {
+  }
+
+  .certification-divider {
+    height: 0.5rem;
+  }
+
+  .certification-wrapper {
+    line-height: 1.35;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .institute-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .content-text {
+    font-size: 0.96rem;
+    margin: 0.4rem 0;
+  }
+}

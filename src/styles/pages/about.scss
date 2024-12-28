@@ -1,0 +1,47 @@
+@import "../variables";
+
+.aboutLayout {
+
+  .education-wrapper {
+    margin-top: 2rem;
+  }
+
+  .education-card {
+    display: flex;
+    margin-bottom: 3rem;
+
+    .img-container {
+      display: flex;
+      max-width: 270px;
+      min-width: 200px;
+
+      &.ucsc-mal {
+        background-color: $pf-scrollbar-track-bg;
+      }
+    }
+
+    .card-content {
+      align-self: center;
+      margin-left: 2rem;
+
+      h3 {
+        margin-top: 0;
+      }
+
+      .date-text {
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .tags-text {
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .content-text {
+        font-size: 0.96rem;
+      }
+    }
+
+  }
+}

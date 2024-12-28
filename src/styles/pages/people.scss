@@ -1,0 +1,42 @@
+.peopleLayout {
+  display: flex;
+  flex-direction: column;
+
+  .people-subtitle {
+  }
+
+  .people-divider {
+    height: 0.5rem;
+  }
+
+  .alt-people-wrapper {
+    line-height: 1.25;
+
+    .content-text {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0.4rem 0;
+
+      .institute-text {
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .people-wrapper {
+    line-height: 1.25;
+    margin-top: 2rem;
+
+    .content-text {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0.4rem 0;
+
+      .institute-text {
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

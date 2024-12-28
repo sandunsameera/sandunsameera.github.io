@@ -1,0 +1,20 @@
+/* width */
+::-webkit-scrollbar {
+  transition: none;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $pf-scrollbar-track-bg;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $pf-scrollbar-thumb-bg;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $pf-scrollbar-thumb-hover-bg;
+}
