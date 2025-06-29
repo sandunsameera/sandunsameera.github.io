@@ -5,6 +5,19 @@ import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const news = [
     {
+        date: "JUN 27, 2025",
+        content: <> I got cirtified with <OutboundLink className="link" href={news_data.certifications.ckad.certificateurl} target="_blank" rel="noopener noreferrer">{news_data.certifications.ckad.name}</OutboundLink> from {news_data.certifications.ckad.institution}.</>
+
+    },
+    {
+        date: "APR 01, 2025",
+        content: <> I got promoted to Specialist Software/Devops Engineer <OutboundLink className="link" href={orgs.yaala.url} target="_blank" rel="noopener noreferrer"> @{orgs.yaala.shortname}</OutboundLink>.</>
+    },
+    {
+        date: "FEB 09, 2025",
+        content: <> I got cirtified with <OutboundLink className="link" href={news_data.certifications.kcna.certificateurl} target="_blank" rel="noopener noreferrer">{news_data.certifications.kcna.name}</OutboundLink> from {news_data.certifications.ckad.institution}.</>
+    },
+    {
         date: "APR 11, 2024",
         content: <> I got my first certification on <OutboundLink className="link" href={news_data.certifications.aws.certificateurl} target="_blank" rel="noopener noreferrer">{news_data.certifications.aws.name}</OutboundLink>.</>
     },

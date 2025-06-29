@@ -1,22 +1,22 @@
 var plugins = [{
       name: 'gatsby-plugin-image',
-      plugin: require('/workspaces/sandunsameera.github.io/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      plugin: require('/home/sandun/work/personal/sandunsameera.github.io/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('/workspaces/sandunsameera.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      plugin: require('/home/sandun/work/personal/sandunsameera.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"icon":"src/images/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"3bff2dd91130bc9e8037d874d462595f"},
     },{
       name: 'gatsby-plugin-google-gtag',
-      plugin: require('/workspaces/sandunsameera.github.io/node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js'),
+      plugin: require('/home/sandun/work/personal/sandunsameera.github.io/node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js'),
       options: {"plugins":[],"trackingIds":["G-9YY9CJLD5V"],"pluginConfig":{"head":true,"respectDNT":false,"exclude":["/preview/**","/do-not-track/me/too/"]}},
     },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/workspaces/sandunsameera.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/home/sandun/work/personal/sandunsameera.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'partytown',
-      plugin: require('/workspaces/sandunsameera.github.io/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('/home/sandun/work/personal/sandunsameera.github.io/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */

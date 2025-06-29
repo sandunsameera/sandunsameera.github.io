@@ -1,5 +1,17 @@
 const certifications = [
     {
+        name: "CKAD: Certified Kubernetes Application Developer",
+        institution: "The Linux Foundation / CNCF",
+        year: "2025",
+        certificateurl: "https://www.credly.com/earner/earned/badge/1f9c6f45-72d5-4ca9-8ee7-cb7298631c19",
+    },
+    {
+        name: "KCNA: Kubernetes and Cloud Native Associate",
+        institution: "The Linux Foundation / CNCF",
+        year: "2025",
+        certificateurl: "https://www.credly.com/earner/earned/badge/36f23266-7d5c-459c-901d-354c2e8a060d",
+    },
+    {
         name: "AWS Certified Solution Architect - Associate",
         institution: "AWS",
         year: "2024",

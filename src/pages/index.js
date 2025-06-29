@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
                         <div className="about-me">
                             <div className="profile-card">
                                 <div className="img-container">
-                                    <StaticImage src="../images/sandun2.png" alt="CORS" placeholder="blurred"
+                                    <StaticImage src="../images/sandun2.jpg" alt="CORS" placeholder="blurred"
                                                  className="article-img" objectFit="contain"/>
                                 </div>
                                 <div className="profile-description">
